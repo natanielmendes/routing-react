@@ -23,7 +23,7 @@ class Blog extends Component {
                                     textDecoration: 'underline'
                                 }}>Home</NavLink></li>
                             <li><NavLink to={{
-                                pathname: 'new-post',
+                                pathname: '/new-post',
                                 hash: '#submit',
                                 search: '?quick-submit=true'
                             }} activeClassName="active">New Post</NavLink></li>
